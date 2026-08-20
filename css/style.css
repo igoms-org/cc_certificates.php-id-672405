@@ -20,11 +20,6 @@
   font-family: "SutonnyMJ";
   src: local("SutonnyMJ");
 }
-@media print {
-      .menu {
-        display: none !important;
-      }
-    }
 
 /* ---------- Base / layout ---------- */
 body {
@@ -151,3 +146,9 @@ button {
   width: 100px;
   height: 100px;
 }
+
+@media print {
+      .menu {
+        display: none !important;
+      }
+    }
